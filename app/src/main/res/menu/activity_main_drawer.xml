@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/menu_home" />
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/hotelactivities">
+        <item
+            android:id="@+id/nav_locations"
+            android:icon="@drawable/ic_restaurant"
+            android:title="@string/menu_locations" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/other">
+        <item
+            android:id="@+id/nav_worsteastern"
+            android:icon="@drawable/ic_worsteastern"
+            android:title="@string/menu_worsteastern" />
+        <item
+            android:id="@+id/nav_flights"
+            android:icon="@drawable/ic_journey"
+            android:title="@string/menu_flights" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/products">
+        <item
+            android:id="@+id/nav_membership"
+            android:icon="@drawable/ic_memberships"
+            android:title="@string/menu_memberships" />
+        <item
+            android:id="@+id/nav_devices"
+            android:icon="@drawable/ic_devices"
+            android:title="@string/menu_devices" />
+        <item
+            android:id="@+id/nav_foodhall"
+            android:icon="@drawable/ic_foodhall"
+            android:title="@string/menu_foodhall" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/securelogin">
+        <item
+            android:id="@+id/nav_hiosunified"
+            android:icon="@drawable/ic_hiosunified"
+            android:title="@string/menu_hiosunified" />
+    </group>
+
+    <group
+    android:checkableBehavior="single"
+    android:id="@+id/bookTable">
+
+    <item
+        android:id="@+id/nav_table"
+        android:icon="@drawable/ic_extras"
+        android:title="@string/nav_table" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/settings">
+        <item
+            android:id="@+id/nav_brands"
+            android:icon="@drawable/ic_brands"
+            android:title="@string/menu_brands" />
+        <item
+            android:id="@+id/nav_comingsoon"
+            android:icon="@drawable/ic_comingsoon"
+            android:title="@string/menu_comingsoon" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/nav_settings" />
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/ic_support"
+            android:title="@string/menu_support" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="@string/nav_help" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_sendfeedback"
+            android:title="@string/menu_feedback" />
+    </group>
+</menu>

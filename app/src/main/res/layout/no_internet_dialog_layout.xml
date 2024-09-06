@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="700dp"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="1000dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="254dp"
+                    android:layout_height="176dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="130dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/nointernet"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/noInternetHeading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noInternet"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textSize="30dp"/>
+
+                <TextView
+                    android:id="@+id/noInternetSubtitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noInternetSubtitle"
+                    android:gravity="center"
+                    android:layout_marginTop="400dp"
+                    android:textSize="20dp"/>
+
+                <!--androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/retry_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="30dp"
+                    android:paddingStart="80dp"
+                    android:paddingEnd="80dp"
+                    android:text="@string/retry"
+                    android:background="@drawable/round_back_stroke"/-->
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

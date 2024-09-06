@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable-anydpi/ic_menu_booking.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable-anydpi/ic_menu_breakfast.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable-anydpi/ic_menu_checkin.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable-anydpi/ic_menu_checkout.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable-anydpi/ic_menu_dinner.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable-anydpi/ic_menu_feedback.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable-anydpi/ic_menu_help.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable-anydpi/ic_menu_home.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable-anydpi/ic_menu_locations.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable-anydpi/ic_menu_lunch.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable-anydpi/ic_menu_settings.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable-anydpi/ic_menu_termsconditions.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable/ic_launcher_logo_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable/ic_menu_home.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable/side_nav_bar.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/drawable/side_nav_heading_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/app_bar_main.xml" value="0.3625" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/content_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_booking.xml" value="0.3625" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_breakfastmenu.xml" value="0.3625" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_checkin.xml" value="0.15579710144927536" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_checkout.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_dinner.xml" value="0.3625" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_dinnermenu.xml" value="0.3625" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_feedback.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_gallery.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_help.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_home.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_locations.xml" value="0.18795289855072464" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_lunchmenu.xml" value="0.2" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_offers.xml" value="0.15172101449275363" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_slideshow.xml" value="0.3625" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_termsconditions.xml" value="0.16077898550724637" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_underdevelopment.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/fragment_worsteastern.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/nav_header_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/layout/settings_activity.xml" value="0.3625" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/menu/main.xml" value="0.3625" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/mipmap-anydpi-v26/ic_nav_heading.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/mipmap-anydpi-v26/ic_nav_heading_round.xml" value="0.21875" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/mipmap-anydpi-v26/side_nav_heading.xml" value="0.21875" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/mipmap-anydpi-v26/side_nav_heading_round.xml" value="0.21875" />
+        <entry key="..\:/Users/weebo/AndroidStudioProjects/HiOS/app/src/main/res/xml/root_preferences.xml" value="0.3625" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable-anydpi/ic_menu_booking.xml" value="0.2315" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable-anydpi/ic_menu_help.xml" value="0.2045" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable-anydpi/ic_menu_lunch.xml" value="0.2925" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable-anydpi/ic_menu_membership.xml" value="0.2925" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable-anydpi/ic_menu_menus.xml" value="0.1" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable-anydpi/ic_menu_parkingpolicy.xml" value="0.2925" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/background_border.xml" value="0.1" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/circle.xml" value="0.2855" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/curvedtoolbar.xml" value="0.3515" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/home-icon.xml" value="0.2315" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/home.xml" value="0.1705" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/homeIcon.xml" value="0.2315" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2165" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2045" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/ic_offers_new.xml" value="0.2855" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/ic_sendfeedback.xml" value="0.1705" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/ic_settings.xml" value="0.2875" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/ic_table.xml" value="0.2165" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/secure_login.xml" value="0.1515" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/settings1.xml" value="0.1515" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/drawable/side_nav_bar.xml" value="0.3475" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/app_bar_main.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/content_main.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_carhire.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_checkout.xml" value="0.18432971014492755" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_comingsoon.xml" value="0.25" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_devices.xml" value="0.3282051282051282" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_flights.xml" value="0.25" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_foodhall.xml" value="0.4" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_help.xml" value="0.18432971014492755" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_home.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_hoteloptions.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_locations.xml" value="0.4" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_lunchmenu.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_membership.xml" value="0.182518115942029" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_menus.xml" value="0.18432971014492755" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_offers.xml" value="0.4" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_ordering.xml" value="0.23822463768115942" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_parkingpolicy.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_roomkey.xml" value="0.23731884057971014" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_settings.xml" value="0.4" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_social.xml" value="0.16304347826086957" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_table.xml" value="0.25" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_tablebook.xml" value="0.25" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_taxi.xml" value="0.4" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/fragment_updates.xml" value="0.25" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/hiosunified_fragment.xml" value="0.4" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/nav_header_main.xml" value="0.4" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/layout/settings_activity.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/menu/activity_main_drawer.xml" value="0.4" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/menu/main.xml" value="0.264" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2555" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/mipmap-anydpi-v26/ic_launcher_logo.xml" value="0.2555" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/mipmap-anydpi-v26/launchericon2022Modern.xml" value="0.2125" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/mipmap-anydpi-v26/launchericon2022modern.xml" value="0.1" />
+        <entry key="..\:/Users/weebo/Documents/HiOS/app/src/main/res/xml/root_preferences.xml" value="0.22644927536231885" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
