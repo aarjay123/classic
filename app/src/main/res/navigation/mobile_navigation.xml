@@ -23,11 +23,11 @@
         android:label="@string/menu_feedback"
         tools:layout="@layout/fragment_feedback" />
 
-    <fragment
+    <!--fragment
         android:id="@+id/nav_settings"
-        android:name="com.nugget.hios.ui.settings.SettingsFragment"
+        android:name="com.nugget.hios.SettingsActivity"
         android:label="@string/nav_settings"
-        tools:layout="@layout/fragment_settings" />
+        tools:layout="@layout/fragment_settings" /-->
 
     <fragment
         android:id="@+id/nav_help"
@@ -46,30 +46,6 @@
         android:name="com.nugget.hios.ui.termsconditions.TermsConditionsFragment"
         android:label="@string/menu_termsconditions"
         tools:layout="@layout/fragment_termsconditions" />
-
-    <fragment
-        android:id="@+id/nav_membership"
-        android:name="com.nugget.hios.ui.membership.MembershipFragment"
-        android:label="@string/menu_memberships"
-        tools:layout="@layout/fragment_membership" />
-
-    <fragment
-        android:id="@+id/nav_hiosunified"
-        android:name="com.nugget.hios.ui.hiosunified.hiosunifiedFragment"
-        android:label="@string/menu_hiosunified"
-        android:layout="@layout/fragment_hiosunified"/>
-
-    <fragment
-        android:id="@+id/nav_table"
-        android:name="com.nugget.hios.ui.table.TableFragment"
-        android:label="@string/nav_table"
-        android:layout="@layout/fragment_table" />
-
-    <fragment
-        android:id="@+id/nav_flights"
-        android:name="com.nugget.hios.ui.flights.FlightsFragment"
-        android:label="@string/menu_flights"
-        android:layout="@layout/fragment_flights" />
 
     <fragment
         android:id="@+id/nav_devices"

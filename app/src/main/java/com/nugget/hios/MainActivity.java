@@ -1,12 +1,16 @@
 package com.nugget.hios;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
 
+import androidx.annotation.NonNull;
+import androidx.core.view.GravityCompat;
 import androidx.core.view.WindowCompat;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -47,7 +51,7 @@ public class MainActivity<id> extends AppCompatActivity {
         // menu should be considered as top level destinations.
         //ADD r.id.nav_ordering!!!
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_feedback, R.id.nav_worsteastern, R.id.nav_help, R.id.nav_locations, R.id.nav_termsconditions, R.id.nav_membership, R.id.nav_flights, R.id.nav_comingsoon, R.id.nav_settings, R.id.nav_devices, R.id.nav_foodhall, R.id.nav_support, R.id.nav_brands, R.id.nav_table)
+                R.id.nav_home, R.id.nav_feedback, R.id.nav_worsteastern, R.id.nav_help, R.id.nav_locations, R.id.nav_termsconditions, R.id.nav_comingsoon, R.id.nav_devices, R.id.nav_foodhall, R.id.nav_support, R.id.nav_brands, R.id.nav_table)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
@@ -67,6 +71,11 @@ public class MainActivity<id> extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+
+    public boolean openSettings(MenuItem item) {
+        startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+        return true;
     }
 
     private boolean checkInternet() {

@@ -67,7 +67,7 @@ public class ComingsoonFragment extends Fragment {
             }
         });
 
-        webView.loadUrl("https://sites.google.com/view/x-by-thc-comingsoon");
+        webView.loadUrl("https://sites.google.com/view/x-by-thc-comingsoon/home");
 
         return root;
     }

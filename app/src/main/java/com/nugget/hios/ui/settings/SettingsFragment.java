@@ -1,18 +1,14 @@
 package com.nugget.hios.ui.settings;
 
-import android.annotation.SuppressLint;
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
@@ -21,13 +17,12 @@ import com.nugget.hios.databinding.FragmentSettingsBinding;
 
 public class SettingsFragment extends Fragment {
 
-    private @NonNull FragmentSettingsBinding binding;
+    private FragmentSettingsBinding binding;
 
-    @RequiresApi(api = Build.VERSION_CODES.Q)
-    @SuppressLint("WrongConstant")
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        com.nugget.hios.ui.settings.SettingsViewModel SettingsViewModel = new ViewModelProvider(this).get(SettingsViewModel.class);
+        SettingsViewModel settingsViewModel =
+                new ViewModelProvider(this).get(SettingsViewModel.class);
 
         binding = FragmentSettingsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
@@ -41,19 +36,28 @@ public class SettingsFragment extends Fragment {
         webView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
         webView.setScrollbarFadingEnabled(false);
 
-        webView.setWebViewClient(new WebViewClient(){
-            public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                if (url != null && (url.startsWith("http://") || url.startsWith("https://"))) {
-                    view.getContext().startActivity(
-                            new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
-                    return true;
-                } else {
-                    return false;
-                }
+        /*if (WebViewFeature.isFeatureSupported(WebViewFeature.FORCE_DARK)) {
+            switch (getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK) {
+                case Configuration .UI_MODE_NIGHT_YES:
+                case Configuration.UI_MODE_NIGHT_NO:
+                case Configuration.UI_MODE_NIGHT_UNDEFINED:
+                    WebSettingsCompat.setForceDark(webView.getSettings(), FORCE_DARK_ON);
+                    break;
+            }
+        }*/
+
+        webView.setWebViewClient(new WebViewClient()
+        {
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url)
+            {
+                //view.loadUrl(url);
+                System.out.println("Never gonna give you up");
+                return false;
             }
         });
 
-            webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/check-for-updates.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/roomkey.html");
 
         return root;
     }

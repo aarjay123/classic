@@ -77,7 +77,7 @@ private FragmentHomeBinding binding;
             }
         }*/
             //webView.loadUrl("https://thehighlandcafe.github.io/hiosmobile/welcome.html");
-        webView.loadUrl("https://aarjay123.github.io/hiosmobile/welcome.html");
+        webView.loadUrl("https://thehighlandcafe.github.io/hioswebcore/welcome.html");
 
         return root;
 

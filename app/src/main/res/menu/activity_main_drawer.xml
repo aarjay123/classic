@@ -15,28 +15,15 @@
             android:id="@+id/nav_locations"
             android:icon="@drawable/ic_restaurant"
             android:title="@string/menu_locations" />
-    </group>
-
-    <group
-        android:checkableBehavior="single"
-        android:id="@+id/other">
         <item
             android:id="@+id/nav_worsteastern"
             android:icon="@drawable/ic_worsteastern"
             android:title="@string/menu_worsteastern" />
-        <item
-            android:id="@+id/nav_flights"
-            android:icon="@drawable/ic_journey"
-            android:title="@string/menu_flights" />
     </group>
 
     <group
         android:checkableBehavior="single"
         android:id="@+id/products">
-        <item
-            android:id="@+id/nav_membership"
-            android:icon="@drawable/ic_memberships"
-            android:title="@string/menu_memberships" />
         <item
             android:id="@+id/nav_devices"
             android:icon="@drawable/ic_devices"
@@ -45,15 +32,6 @@
             android:id="@+id/nav_foodhall"
             android:icon="@drawable/ic_foodhall"
             android:title="@string/menu_foodhall" />
-    </group>
-
-    <group
-        android:checkableBehavior="single"
-        android:id="@+id/securelogin">
-        <item
-            android:id="@+id/nav_hiosunified"
-            android:icon="@drawable/ic_hiosunified"
-            android:title="@string/menu_hiosunified" />
     </group>
 
     <group
@@ -69,10 +47,10 @@
     <group
         android:checkableBehavior="single"
         android:id="@+id/settings">
-        <item
+        <!--item
             android:id="@+id/nav_brands"
             android:icon="@drawable/ic_brands"
-            android:title="@string/menu_brands" />
+            android:title="@string/menu_brands" /-->
         <item
             android:id="@+id/nav_comingsoon"
             android:icon="@drawable/ic_comingsoon"
@@ -80,15 +58,16 @@
         <item
             android:id="@+id/nav_settings"
             android:icon="@drawable/ic_settings"
-            android:title="@string/nav_settings" />
+            android:title="@string/nav_settings"
+            android:onClick="openSettings"/>
         <item
             android:id="@+id/nav_support"
             android:icon="@drawable/ic_support"
             android:title="@string/menu_support" />
-        <item
+        <!--item
             android:id="@+id/nav_help"
             android:icon="@drawable/ic_help"
-            android:title="@string/nav_help" />
+            android:title="@string/nav_help" /-->
         <item
             android:id="@+id/nav_feedback"
             android:icon="@drawable/ic_sendfeedback"
